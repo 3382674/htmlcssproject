@@ -1,2 +1,2 @@
-# htmlcssproject
+#geeksforgeeksproject
 HTMLCSS PROJECT
