@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form for website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>geeksgforgeeksforms</h1>
+    <form id="form">
+      <div class="form_control">
+        <label for="name" id="label-name"> Name </label>
+        <input type="text" id="Name" placeholder="Enter Your Name" />
+      </div>
+      <div class="form_control">
+        <label for="Email" id="label-email"> Email </label>
+        <input type="email" id="Email" placeholder="Enter Your Email" />
+      </div>
+      <div class="form_control">
+        <label for="Age" id="label-Age"> Age </label>
+        <input type="text" id="Age" placeholder="Enter Your Age" />
+      </div>
+      <div class="form_control">
+        <label for="role" id="label-role">
+          Which Option Best Describe You
+        </label>
+        <select name="role" id="role">
+          <option value="student">Student</option>
+          <option value="intern">Intern</option>
+          <option value="job holder">Job Holder</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form_control">
+        <label>Would you recommend GeeksforGeeks to a friend? </label>
+       <label for="recommend-Yes"><input type="radio" name="recommend" id="recommend-1" value="yes">yes</label>
+       <label for="recommend-NO"><input type="radio" name="recommend" id="recommend-2" value="yes">No</label>
+        <label for="recommend-MAybe"><input type="radio" name="recommend" id="recommend-3" value="yes">Maybe</label>
+      </div>
+      <div class="form_control">
+        <label>Languages and Frameworks known(Check all that apply)</label>
+       <label for="inp1"><input type="checkbox" name="inp-1">C</input></label>
+       <label for="inp2"><input type="checkbox" name="inp-2">C++</input></label>
+       <label for="inp3"><input type="checkbox" name="inp-3">C#</input></label>
+       <label for="inp4"><input type="checkbox" name="inp-4">Java</input></label>
+       <label for="inp5"><input type="checkbox" name="inp-5">Python</input></label>
+       <label for="inp6"><input type="checkbox" name="inp-6">Javascript</input></label>
+      </div>
+      <div class="form_control">
+        <label for="comment"> Any comments or suggestions</label>
+        <textarea name="comment" id="comment" placeholder="Enter Your Comment Here"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
